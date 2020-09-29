@@ -1,5 +1,4 @@
 <?php
-
 require_once '../site.php';
 require_once '../bencoding.php';
 $db->connect();
@@ -65,7 +64,6 @@ if ($row) {
         }
     }
 
-
 } else {
     printf('<div class="bad notification">No such torrent</div>');
 }
@@ -73,4 +71,3 @@ if ($row) {
 printf('</section>');
 
 site_footer();
-
